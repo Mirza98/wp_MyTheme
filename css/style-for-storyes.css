@@ -1,0 +1,1120 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
+
+{
+   font-family: 'Slabo 27px', serif;
+  font-family: 'Ubuntu', sans-serif;
+        }
+ 
+
+
+body{
+    padding:0px;
+    margin: 0px;
+    background-color: black;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    
+    }
+
+
+.bigwraper{
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+    /*max-width: 1280px;*/
+    margin-top: 0px;
+    
+    }
+
+
+.midlewraper{
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1080px;
+    padding-bottom: 50px;
+    
+    }
+
+
+
+
+
+.headerwrap{
+     max-width: 1280px;
+        }
+
+
+
+
+
+
+     /*stil za prvi dio==================================================*/
+
+.bigdiv{
+       width: 67%;
+       height: 380px;
+       float: left;
+     }
+
+
+.bigdiv .halfwidth{
+       width: 50%;
+       height: 100%;
+       float: left;
+     } 
+
+
+.bigdiv .halfwidth .newimg{
+       width: 100%;
+       height: 100%;
+       overflow: hidden;
+   }  
+
+.halfwidth .newimg img{
+      width: 200%;
+      
+  }
+
+.newtransparent{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -380px;
+       padding: 0px;
+       display: flex;
+       flex-direction:column;
+  }
+
+
+.newtransparent h2{
+       color: white;
+       font-size: 1.7em;
+       width: 90%;
+       margin: 0.5em 0px 0px 15px;
+       font-weight: 400;
+       /*font-family:  'Open Sans', sans-serif;*/
+       font-family: 'Merriweather', serif;
+       position: absolute;
+       cursor: pointer;
+       transition:all .5s ease;
+       text-shadow: 1px 1px black;
+  } 
+.newtransparent h3{
+       color: white;
+       font-size: 1em;
+       width: 90%;
+       font-weight: 600;
+       font-family: Arial;
+       position: absolute;
+       margin: 350px 0px 0px 15px;    
+  }
+
+
+
+
+
+
+
+
+
+/*parvidoi na sesnoj strani =========================================*/
+
+
+
+.bigdiv .secondhalf{
+       width: 50%;
+       height: 50%;
+       float: right;
+  
+     }
+
+.secondnewimg{
+       width: 100%;
+       height: 100%;
+       overflow: hidden;
+   }  
+
+.secondnewimg img{
+      width: 100%;
+      
+  }
+
+.secondnewtransparent{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -190px;
+       padding: 0px;
+       display: flex;
+       flex-direction:column; 
+  }
+
+
+.secondnewtransparent h2{
+       color: white;
+       font-size: 1.4em;
+       width: 90%;
+       margin: 0.5em 0px 0px 15px;
+       font-weight: 200;
+       /*font-family:  'Open Sans', sans-serif;*/
+       font-family: 'Merriweather', serif;
+       position: absolute;
+       cursor: pointer;
+       transition:all .5s ease;
+  } 
+.secondnewtransparent h3{
+       color: white;
+       font-size: 1em;
+       width: 90%;
+       font-weight: 600;
+       font-family: Arial;
+       position: absolute;
+       margin: 160px 0px 0px 15px;    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /*drugi do styla ==============================================*/
+
+.firstimg2wraper{
+       width: 67%;
+       height: 190px;
+       float: left;
+      
+       
+        }
+
+.firstimag2{
+       width: 50%;
+       height: 100%;
+       padding: 0px;
+       float: left;
+
+        }
+
+
+.firstimag2 .imagine2{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 0px;
+
+        }
+
+.firstimag2 .imagine2 img{
+        width: 100%;
+        }
+
+
+
+
+
+.transparent2{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -190px;
+       padding: 0px;
+       font-family: Arial;
+       font-size: .7em;
+
+
+}
+
+
+.transparent2 h2{
+       color: white;
+       font-size: 2.2em;
+       width: 80%;
+       margin: 10px 0px 0px 15px;
+       position: absolute;
+       font-weight: 400;
+       font-family: 'Merriweather', serif;
+       transition:all .5s ease;
+  }
+
+
+.transparent2 h3{
+       color: white;
+       font-size: 1.5em;
+       width: 90%;
+       font-weight: 600;
+       font-family: Arial;
+       position: absolute;
+       margin: 160px 0px 0px 15px;
+       
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*treci doi styla =================================================00*/
+
+.imagine3wraper{
+       width: 33%;
+       height: 570px;
+       float: right;
+       
+       margin-top: -380px;
+      
+       
+        }
+
+.firstimag3{
+       width: 100%;
+       height: 190px;
+       padding: 0px;
+       
+
+        }
+
+
+.firstimag3 .imagine3{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 0px;
+
+        }
+
+.firstimag3 .imagine3 img{
+        width: 100%;
+        }
+
+
+
+
+
+.transparent3{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -190px;
+       padding: 0px;
+       font-family: Arial;
+       font-size: .7em;
+
+
+}
+
+
+.transparent3 h2{
+       color: white;
+       font-size: 2.2em;
+       width: 80%;
+       margin: 10px 0px 0px 15px;
+       position: absolute;
+       font-weight: 400;
+       font-family: 'Merriweather', serif;
+       transition:all .5s ease;
+  }
+
+
+.transparent3 h3{
+       color: white;
+       font-size: 1.5em;
+       width: 90%;
+       font-weight: 600;
+       font-family: Arial;
+       position: absolute;
+       margin: 160px 0px 0px 15px;
+       
+  }
+
+
+
+
+
+
+
+
+
+
+
+ /*styl  za zadnji velikikdiv ================================================0*/
+
+
+.firstimag4{
+       height: 380px;
+        }
+
+.firstimag4 .imagine4{
+        
+        }
+
+.firstimag4 .imagine3 img{
+        width: 200%;
+        }
+
+.transparent4{
+       margin-top: -380px;
+}
+
+
+.transparent4 h2{
+       font-size: 2.2em;
+       
+  }
+
+.transparent4 h3{
+       margin: 350px 0px 0px 15px;
+       
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.red{
+  background: -webkit-linear-gradient(-45deg,rgba(51, 51, 153,.6),rgba(210,11,45,.6));
+  background:    -moz-linear-gradient(-45deg,rgba(51, 51, 153,.6),rgba(210,11,45,.6));
+  background:     -ms-linear-gradient(-45deg,rgba(51, 51, 153,.6),rgba(210,11,45,.6));
+  background:      -o-linear-gradient(-45deg,rgba(51, 51, 153,.6),rgba(210,11,45,.6));
+  background:         linear-gradient(-45deg,rgba(51, 51, 153,.6),rgba(210,11,45,.6));
+}
+.red:hover{
+  background: -webkit-linear-gradient(-45deg,rgba(51, 51, 153,.9),rgba(210,11,45,.7));
+  background:    -moz-linear-gradient(-45deg,rgba(51, 51, 153,.9),rgba(210,11,45,.7));
+  background:     -ms-linear-gradient(-45deg,rgba(51, 51, 153,.9),rgba(210,11,45,.7));
+  background:      -o-linear-gradient(-45deg,rgba(51, 51, 153,.9),rgba(210,11,45,.7));
+  background:         linear-gradient(-45deg,rgba(51, 51, 153,.9),rgba(210,11,45,.7));
+
+
+}
+
+.yelov{
+  background: -webkit-linear-gradient(-45deg,rgba(255, 214, 51,.6),rgba(255,102,0,.6));
+  background:    -moz-linear-gradient(-45deg,rgba(255, 214, 51,.6),rgba(255,102,0,.6));
+  background:     -ms-linear-gradient(-45deg,rgba(255, 214, 51,.6),rgba(255,102,0,.6));
+  background:      -o-linear-gradient(-45deg,rgba(255, 214, 51,.6),rgba(255,102,0,.6));
+  background:         linear-gradient(-45deg,rgba(255, 214, 51,.6),rgba(255,102,0,.6));  
+}
+.yelov:hover{
+  background: -webkit-linear-gradient(-45deg,rgba(255, 214, 51,.9),rgba(255,102,0,.9));
+  background:    -moz-linear-gradient(-45deg,rgba(255, 214, 51,.9),rgba(255,102,0,.9));
+  background:     -ms-linear-gradient(-45deg,rgba(255, 214, 51,.9),rgba(255,102,0,.9));
+  background:      -o-linear-gradient(-45deg,rgba(255, 214, 51,.9),rgba(255,102,0,.9));
+  background:         linear-gradient(-45deg,rgba(255, 214, 51,.9),rgba(255,102,0,.9));  
+}
+
+
+.blue{
+  background: -webkit-linear-gradient(-50deg,rgba(51, 51, 204,.6),rgba(204,51,255,.6));
+  background:    -moz-linear-gradient(-50deg,rgba(51, 51, 204,.6),rgba(204,51,255,.6));
+  background:     -ms-linear-gradient(-50deg,rgba(51, 51, 204,.6),rgba(204,51,255,.6));
+  background:      -o-linear-gradient(-50deg,rgba(51, 51, 204,.6),rgba(204,51,255,.6));
+  background:         linear-gradient(-50deg,rgba(51, 51, 204,.6),rgba(204,51,255,.6)); 
+}
+.blue:hover{
+  background: -webkit-linear-gradient(-50deg,rgba(51, 51, 204,.9),rgba(204,51,255,.9));
+  background:    -moz-linear-gradient(-50deg,rgba(51, 51, 204,.9),rgba(204,51,255,.9));
+  background:     -ms-linear-gradient(-50deg,rgba(51, 51, 204,.9),rgba(204,51,255,.9));
+  background:      -o-linear-gradient(-50deg,rgba(51, 51, 204,.9),rgba(204,51,255,.9));
+  background:         linear-gradient(-50deg,rgba(51, 51, 204,.9),rgba(204,51,255,.9)); 
+}
+
+.green{
+  background: -webkit-linear-gradient(-50deg,rgba(0, 102, 153,.6),rgba(46, 158, 46,.6));
+  background:    -moz-linear-gradient(-50deg,rgba(0, 102, 153,.6),rgba(46, 158, 46,.6));
+  background:     -ms-linear-gradient(-50deg,rgba(0, 102, 153,.6),rgba(46, 158, 46,.6));
+  background:      -o-linear-gradient(-50deg,rgba(0, 102, 153,.6),rgba(46, 158, 46,.6));
+  background:         linear-gradient(-50deg,rgba(0, 102, 153,.6),rgba(46, 158, 46,.6)); 
+}
+.green:hover{
+  background: -webkit-linear-gradient(-50deg,rgba(0, 102, 153,.9),rgba(46, 158, 46,.9));
+  background:    -moz-linear-gradient(-50deg,rgba(0, 102, 153,.9),rgba(46, 158, 46,.9));
+  background:     -ms-linear-gradient(-50deg,rgba(0, 102, 153,.9),rgba(46, 158, 46,.9));
+  background:      -o-linear-gradient(-50deg,rgba(0, 102, 153,.9),rgba(46, 158, 46,.9));
+  background:         linear-gradient(-50deg,rgba(0, 102, 153,.9),rgba(46, 158, 46,.9)); 
+}
+
+.pink{
+  background: -webkit-linear-gradient(-50deg,rgba(255, 102, 0,.8),rgba(255, 51, 153,.8));
+  background:    -moz-linear-gradient(-50deg,rgba(255, 102, 0,.8),rgba(255, 51, 153,.8));
+  background:     -ms-linear-gradient(-50deg,rgba(255, 102, 0,.8),rgba(255, 51, 153,.8));
+  background:      -o-linear-gradient(-50deg,rgba(255, 102, 0,.8),rgba(255, 51, 153,.8));
+  background:         linear-gradient(-50deg,rgba(255, 102, 0,.8),rgba(255, 51, 153,.8));
+}
+.pink:hover{
+  background: -webkit-linear-gradient(-50deg,rgba(255, 102, 0,.9),rgba(255, 51, 153,.9));
+  background:    -moz-linear-gradient(-50deg,rgba(255, 102, 0,.9),rgba(255, 51, 153,.9));
+  background:     -ms-linear-gradient(-50deg,rgba(255, 102, 0,.9),rgba(255, 51, 153,.9));
+  background:      -o-linear-gradient(-50deg,rgba(255, 102, 0,.9),rgba(255, 51, 153,.9));
+  background:         linear-gradient(-50deg,rgba(255, 102, 0,.9),rgba(255, 51, 153,.9));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 1000px)   {
+
+
+
+
+.bigdiv{
+       width:100%;
+     }
+
+
+
+
+
+
+
+
+
+.bigwraperza4price{
+       width: 100%;
+       height: 190px;
+       overflow: auto;
+     }
+.wraperza4price{
+       width:200%;
+       height: 170px;
+       float: left;
+
+    
+     }
+
+
+        /*------- siroki dugi ispod    */
+
+.firstimg2wraper{
+       width: 50%;
+       height: 170px;
+       float: left;
+       
+        }
+
+.firstimag2{
+       width: 50%;
+       height: 100%;
+       padding: 0px;
+       float: left;
+        }
+
+
+.firstimag2 .imagine2{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 0px;
+
+        }
+
+.firstimag2 .imagine2 img{
+        width: 100%;
+        }
+
+
+
+
+
+.transparent2{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -170px;
+       padding: 0px;
+       font-family: Arial;
+       font-size: .7em;
+
+
+}
+
+
+.transparent2 h2{
+       color: white;
+       font-size: 2.2em;
+       width: 80%;
+       margin: 10px 0px 0px 15px;
+       transition:all .5s ease;
+  }
+
+
+.transparent2 h3{
+       color: white;
+       font-size: 1.5em;
+       width: 90%;
+       margin: 140px 0px 0px 15px;
+       
+  }
+
+
+
+
+
+
+
+  /*stil za treci dio pocetka*/
+
+
+.imagine3wraper{
+       width: 50%;
+       height: 170px;
+       float: right;
+       margin: 0px;
+        }
+
+.firstimag3{
+       width: 50%;
+       height: 170px;
+       padding: 0px;
+       
+
+        }
+
+
+.firstimag3 .imagine3{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 0px;
+
+        }
+
+.firstimag3 .imagine3 img{
+        width: 100%;
+        }
+
+
+
+
+
+.transparent3{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -170px;
+       padding: 0px;
+       font-family: Arial;
+       font-size: .7em;
+
+
+}
+
+
+.transparent3 h2{
+       color: white;
+       font-size: 2.2em;
+       width: 80%;
+       margin: 10px 0px 0px 15px;
+       position: absolute;
+       font-weight: 400;
+       font-family: 'Merriweather', serif;
+       transition:all .5s ease;
+  }
+
+
+.transparent3 h3{
+       color: white;
+       font-size: 1.5em;
+       width: 90%;
+       font-weight: 600;
+       font-family: Arial;
+       position: absolute;
+       margin: 140px 0px 0px 15px;
+       
+  }
+
+
+
+
+
+.firstimag4{
+       width: 50%;
+       height: 170px;
+       float: right;
+       margin-top: -170px;
+        }
+
+.firstimag4 .imagine4{
+        
+        }
+
+.firstimag4 .imagine3 img{
+        width: 100%;
+        }
+
+.transparent4{
+       margin-top: -170px;
+}
+
+
+.transparent4 h2{
+       font-size: 2.2em;
+       
+  }
+
+.transparent4 h3{
+       margin: 140px 0px 0px 15px;
+       
+  }
+
+
+
+
+
+
+
+   }
+
+
+
+ @media screen and (max-width: 680px)   {
+
+
+           /*-------------- veliki prvid dio----------------*/
+
+
+.bigdiv{
+       width: 100%;
+       height: 540px;
+     }
+
+
+.bigdiv .halfwidth{
+       width: 100%;
+       height: 180px;
+     } 
+
+
+.bigdiv .halfwidth .newimg{
+       width: 100%;
+       height: 100%;
+   }  
+
+.halfwidth .newimg img{
+      width: 100%;
+      
+  }
+
+.newtransparent{
+       margin-top: -180px;
+  }
+
+
+.newtransparent h2{
+       color: white;
+       font-size: 1.7em;
+       width: 90%;
+       margin: 0.5em 0px 0px 15px;
+       transition:all .5s ease;
+  } 
+.newtransparent h3{
+       color: white;
+       font-size: 1em;
+       width: 90%;
+       margin: 150px 0px 0px 15px;    
+  }
+
+
+
+
+
+.bigdiv .secondhalf{
+       width: 100%;
+       height: 180px;
+    
+     }
+
+.secondnewimg{
+       width: 100%;
+       height: 100%;
+
+   }  
+
+.secondnewimg img{
+      width: 100%;
+      
+  }
+
+.secondnewtransparent{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -180px;
+       padding: 0px;
+
+       display: flex;
+       flex-direction:column; 
+  }
+
+
+.secondnewtransparent h2{
+       color: white;
+       font-size: 1.4em;
+       width: 90%;
+       margin: .5em 0px 0px 15px;
+       font-weight: 200;
+
+       transition:all .5s ease;
+  } 
+.secondnewtransparent h3{
+       color: white;
+       font-size: 1em;
+       width: 90%;
+       margin: 150px 0px 0px 15px;    
+  }
+
+
+
+
+
+/*--------right side   ------ */
+
+
+
+
+.bigwraperza4price{
+       width: 100%;
+       height: 730px;
+     }
+.wraperza4price{
+       width:100%;
+       height: 680px;
+       float: left;
+
+    
+     }
+
+
+
+  /*stil za treci ddio pocetka*/
+
+
+.imagine3wraper{
+       width: 100%;
+       height: 340px;
+       float: right;
+       margin: 0px;
+        }
+
+.firstimag3{
+       width: 100%;
+       height: 170px;
+       padding: 0px;
+       
+
+        }
+
+
+.firstimag3 .imagine3{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 0px;
+
+        }
+
+.firstimag3 .imagine3 img{
+        width: 100%;
+        }
+
+
+
+
+
+.transparent3{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -170px;
+       padding: 0px;
+       font-family: Arial;
+       font-size: .7em;
+
+
+}
+
+
+.transparent3 h2{
+       color: white;
+       font-size: 2.2em;
+       width: 80%;
+       margin: 10px 0px 0px 15px;
+       position: absolute;
+       font-weight: 400;
+       font-family: 'Merriweather', serif;
+       transition:all .5s ease;
+  }
+
+
+.transparent3 h3{
+       color: white;
+       font-size: 1.5em;
+       width: 90%;
+       font-weight: 600;
+       font-family: Arial;
+       position: absolute;
+       margin: 140px 0px 0px 15px;
+       
+  }
+
+
+
+
+
+
+
+
+
+
+.firstimg2wraper{
+       width: 100%;
+       height: 360px;
+       float: right;
+       
+        }
+
+.firstimag2{
+       width: 100%;
+       height: 180px;
+       padding: 0px;
+
+        }
+
+
+.firstimag2 .imagine2{
+        width: 100%;
+        height: 180px;
+        overflow: hidden;
+        padding: 0px;
+
+        }
+
+.firstimag2 .imagine2 img{
+        width: 100%;
+        }
+
+
+
+
+
+.transparent2{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -180px;
+       padding: 0px;
+       font-family: Arial;
+       font-size: .7em;
+
+
+}
+
+
+.transparent2 h2{
+       color: white;
+       font-size: 2.2em;
+       width: 80%;
+       margin: 10px 0px 0px 15px;
+       position: absolute;
+       font-weight: 400;
+       font-family: 'Merriweather', serif;
+       
+       transition:all .5s ease;
+  }
+
+
+.transparent2 h3{
+       color: white;
+       font-size: 1.5em;
+       width: 90%;
+       position: absolute;
+       margin: 150px 0px 0px 15px;
+       
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+.firstimag4{
+       width: 50%;
+       height: 170px;
+       float: right;
+       margin-top: -170px;
+        }
+
+.firstimag4 .imagine4{
+        
+        }
+
+.firstimag4 .imagine3 img{
+        width: 100%;
+        }
+
+.transparent4{
+       margin-top: -170px;
+}
+
+
+.transparent4 h2{
+       font-size: 2.2em;
+       
+  }
+
+.transparent4 h3{
+       margin: 140px 0px 0px 15px;
+       
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 680px)   { 
+
+
+  .firstimg .imagine img{
+         height: 150%;
+         margin-left: -100px;
+        
+        }
+}

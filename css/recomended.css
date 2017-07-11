@@ -1,0 +1,303 @@
+
+a{
+  color: black;
+}
+
+
+
+.recomended{
+    width: 28%;
+    margin-bottom: 3em;
+    float: right;
+    border-right: 2px solid rgba(204, 0, 102,.9);
+    border-right: 2px solid #000099;
+    border-top: 2px solid #000099;
+    margin-top: 50px;
+    margin-right: 2%;
+    padding-bottom: 50px;
+}
+
+.recomended::before{
+        content: "";
+        width: 2px;
+        height: 26px;
+        display: block;
+        background: #000099;
+        margin-top: -25px;
+        margin-left: -8px;
+        transform: rotate(-30deg);
+        -webkit-transform: rotate(-30deg);
+        -moz-transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg);
+        -o-transform: rotate(-30deg);
+
+
+     
+
+}
+
+
+
+.recomended h1{
+        margin: 1em 0px 1em 0px;
+        font-size: 1.2em;
+        font-family: Arial;
+        font-weight: 200;
+        color: black;
+        width: 90%;
+        display: inline-block;
+              }
+
+.recomended .advert{
+    width: 94%;
+    display: inline-block;
+    padding: 0px;
+    overflow: hidden;
+    margin: 6px 0px;
+    border: 0px;
+    
+}
+
+.recomended .advert hr{
+    display: none;
+}
+
+.recomended .advert h3{
+    display: none;
+}
+
+
+.recomended .advert .imagine{
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    margin: 0px;
+    float: left;
+}      
+
+.recomended .advert img{
+    /*height:  100%;*/
+    /*width: 160%;
+    margin-left: -40%;*/
+    
+}
+
+
+.recomended .wraper-smal{
+    width: 100%;
+    float: right;
+    margin-top: 5px;
+} 
+
+.recomended .advert h1 {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 0.9em;
+    line-height: 1.1em;
+    font-weight: 600;
+    color: rgba(0,0,0,.7);
+    padding: 0px;
+    margin: 8px 0px;
+}
+
+.recomended .advert h1:hover{
+    color: #b30059;
+}
+
+.entry-title a{
+    color: #666666;
+  }
+  .entry-title a:hover{
+    color: #b30059;;
+  }
+
+.recomended .advert h4{
+       margin: 15px;
+       margin-bottom: 5px;
+       font-size: 0.8em;
+       font-family:  'Open Sans', sans-serif;
+       font-style: italic;
+       color: black;
+       margin-top: 0px;
+       display: none;
+        }
+
+
+.recomended .advert p{
+        width: 100%;
+        margin: 0px;
+        font-size: 0.8em;
+        color: #4d4d4d;
+        line-height: 1.5em;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        display: none;
+
+
+        }   
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===============================================================*/
+
+
+
+
+ @media screen and (max-width: 780px)   {
+
+
+
+
+
+
+.recomended{
+        width: 88%;
+        height: auto;
+        margin: 5em 6%;
+        float: left;
+        padding-top: 10px;
+        margin-right: 2%;
+        padding-right: 1px;
+        padding-bottom: 0px;
+        float: left;
+
+}
+
+
+.recomended::before{
+        margin-top: -35px;
+        margin-left: -8px;
+}
+
+.recomended h1{
+        margin: 8px 0px .2em 0em;
+        font-size: 1.3em;
+        font-weight: 200;
+    
+              }
+
+
+.recomended .advert{
+       width: 100%;
+       height: 400px;
+       float: left;
+       padding: 0px;
+       overflow: hidden;
+       margin: 6px 0px;
+
+}
+
+
+
+.recomended .advert hr{
+       display: none;
+        }
+.recomended .advert h3{
+       display: none;
+        }
+
+
+.recomended .advert .imagine{
+       width: 94%;
+       height: 82%;
+       overflow: hidden;
+       margin: 0px;
+       padding: 0px;
+
+}       
+
+
+.recomended .advert img{
+    margin: 0px;
+    padding: 0px;
+    width: 120%;
+    
+}
+
+
+.recomended .wraper-smal{
+       width: 90%;
+       float: left;
+       margin-top: 5px;
+       font-size: .8em;
+       
+       } 
+
+.recomended .advert .wraper-smal h1{
+        font-family:  'Open Sans', sans-serif; 
+        font-size: 1.4em;
+        line-height: 1.1em;
+        font-weight: 400;
+        color: rgba(0,0,0,.9);
+        padding: 0px;
+        margin: 0px;
+        margin-top: 6px;
+        }
+
+.recomended .advert h1:hover{
+        color: #b30059;
+        }
+
+
+
+
+
+.recomended .advert h4{
+       display: none;
+        }
+.recomended .advert p{
+        display: none;
+        }   
+
+
+
+
+
+
+
+@media screen and (max-width: 480px)   {
+
+.recomended .advert{
+      width: 100%;
+      height: 300px;
+      float: left;
+      padding: 0px;
+      overflow: hidden;
+      margin: 6px 0px;
+}
+.recomended .advert .imagine{
+      width: 94%;
+      height: 80%;
+      overflow: hidden;
+      margin: 0px;
+      padding: 0px;
+
+} 
+
+
+}
+
+
+}
+
+
+

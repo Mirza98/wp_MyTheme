@@ -1,0 +1,1826 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+
+font-family: 'Titillium Web', sans-serif;
+
+h3{
+    color: #8a8a5c;
+        }
+
+p{
+    
+        }
+
+body{
+    padding: 0px;
+    margin: 0px;
+    /*max-width: 1080px;*/
+    margin: 0 auto;
+        }
+
+
+.midlewraper{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1080px;
+    }
+
+
+
+
+/*odvajanje od adverta hr*/
+.bighr{
+    width: 100%;
+    
+    }
+
+
+
+
+
+
+/*
+header{
+   /*  margin: 0px 0px -20vh 0px;
+     padding: 0px;
+     width: 100%;
+     height: 20vh;
+     min-height: 7em;
+     background-image: url("imagines/nebula.jpg");
+     background-size: cover;
+     background-attachment: fied;
+     background-size: 100%;
+     -wbkit-filter:blur(1px);
+     background-repeat: no-repeat;
+     background-position: center center;
+     
+     border-bottom: 1px solid rgba(255,255,255,.5);
+
+     font-family: 'Ubuntu', sans-serif;
+
+
+     text-align: center;
+
+        }
+
+
+header h1 {
+     color: white;
+     margin: 0px;
+     padding: 0px;
+     font-size: 3.5em;
+
+        }
+
+header h4 {
+     color: white;
+     margin: 0px;
+     padding: 0px;
+     font-size: 2em;
+     margin-left: 20%;
+        }
+
+
+.ispodheader{
+     margin: 0px;
+     padding: 0px;
+     width: 100%;
+     height: 20vh;
+     position: relative;
+
+     font-family: 'Ubuntu', sans-serif;
+
+          display: flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center;
+
+        }
+
+
+.ispodheader h1 {
+     color: white;
+     margin: 0px;
+     padding: 0px;
+     font-size: 3.5em;
+  
+        }
+
+
+.ispodheader h4 {
+     color: white;
+     margin: 0px;
+     padding: 0px;
+     font-size: 2em;
+     margin-left: 20%;
+        }
+
+
+
+
+
+
+
+
+
+
+
+    #sidebar{
+       background: #151718;
+       width: 249px;
+       height: 100%;
+       display: block;
+       position: absolute;
+       left: -250px;
+       top: 0px;
+       transition:left 0.3s linear;
+       z-index: 9999;
+       border-right: 1px solid #0066ff;
+    }
+
+  #sidebar.visible{
+      left: 0px;
+      transition:left 0.3s linear;
+
+         }
+
+ ul {
+    padding: 0px;
+    margin-top: 80px;
+         }
+
+ ul li{
+      list-style: none;
+      padding-top: 20px;
+         }
+
+ ul li a {
+      color: #ccc;
+      display: block;
+      width: 220px;
+      margin-left: 15px;
+      margin-top: 10px;
+      text-decoration: none;
+      font-size: 1.1em;
+         }
+
+ul li a p {
+      margin: -4px 0px 0px 80px;
+      padding: 0px;
+      font-size: 0.8em;
+
+
+
+     }
+
+ ul li a:hover {
+   border-bottom: 1px solid #f2f2f2;
+
+  }
+
+.blue{
+   color : #0066ff;
+
+  }
+
+     /*button
+
+ #sidebar-btn{
+      display: inline-block;
+      vertical-align: middle;
+      width: 20px;
+      height: 50px;
+      cursor: pointer;
+      margin: 20px;
+      position: absolute;
+      top: 0px;
+      right: -60px;
+      overflow: hidden;
+         }
+
+ #sidebar-btn span{
+      height: 3px;
+      background:  white;
+      margin-bottom: 5px;
+      display: block;
+      cursor: pointer;
+         }
+
+ #sidebar-btn span.black{
+      background:  black;
+     
+         }
+
+
+#sidebar-btn span:nth-child(2){
+    width: 75%;
+         }
+
+
+.spanmi {
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+      transition:all 1s ease;
+      
+         }
+
+.spanmi.visible {
+      transform:translateZ(25px) rotate(315deg);
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+      transition:all 1s ease;
+      margin-left: 100px;
+    
+
+         }
+
+
+
+
+.spanf {
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+      transition:all 1s ease;
+      
+         }
+
+.spanf.visible {
+      transform:translateZ(25px) rotate(315deg);
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+      transition:all 1s ease;
+
+      margin-top: 10px;
+
+         }
+
+
+
+
+.spanl {
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+     transition:all 1s ease;
+    
+         }
+
+
+.spanl.visible{
+      transform:rotate(225deg);
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+       transition:all 1s ease;
+
+      margin-top: -16px;
+         }
+
+
+
+.overflov{
+     width: 100%;
+     height: 100%;
+     background: rgba(0,0,0,.55);
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 9988;
+     display: none;
+        }
+
+
+
+
+
+
+
+/*footer
+footer{
+     margin-top: 100px;
+       width: 100%;
+       height: 200px;
+       background:#222;
+       overflow: hidden;
+       
+        }
+
+footer h1{
+        width: 40%;
+        font-size: 2.5em;
+        color:white;
+        margin: 20px 20px 10px 50px;
+        }
+
+
+footer h2{
+       width: 20%;
+       font-size: 1em;
+       display: inline-block;
+       color: white;
+       margin: 20px;
+        }
+
+footer p{
+        padding: 0px;
+        margin: -5px 0px 0px 50px;
+        }
+
+
+
+
+
+
+        /*advert right*/
+
+a{
+      
+      color:#e600ac; 
+
+        }   
+a:hover{
+    color: #990073;
+
+}
+
+span{
+      color:#e600ac; 
+        }
+
+
+
+
+
+/*
+.advert{
+       width: 45%;
+       float: right;
+       padding: 2.5%;
+       height: 22em;
+       overflow: hidden;
+
+
+        }
+
+
+
+.advert h3{
+       position: top left;
+       color:#0066ff;
+       margin: 0px 0px -.5em 0px;
+       font-size: 0.8em;
+       font-family:  'Open Sans', sans-serif;
+       font-weight: 400;
+       font-variant:;
+        }
+
+
+.advert .imagine{
+       width: 100%;
+       height:12em;
+       overflow: hidden;
+       margin-top: -0.5em;
+        }       
+
+
+ .advert img{
+        width:  100%;
+      
+        }
+
+
+.advert h1 {
+        margin: 8px 0px 8px 0px ;
+        font-family: Arial;
+        font-size: 1.5em;
+        line-height: 1em;
+        color: black;
+        }
+
+ .advert h1:hover{
+        color: #0066ff;
+        }
+
+ .advert h4{
+       margin: 0px;
+       margin-bottom: 5px;
+       font-size: 0.7em;
+       font-family:  'Open Sans', sans-serif;
+       font-style: italic;
+       color: black;
+        }
+
+
+ .advert p{
+        width: 100%;
+        margin: 0px;
+        font-size: 0.8em;
+        color: #595959;
+        line-height: 1.4em;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+
+
+        } 
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+       /*prica*/
+.wraper{
+      width: 100%;
+      margin: 30px 0px 30px 0px;
+      background: white;
+      display: inline-block;
+      padding-bottom: 5em;
+        }
+
+
+.naslov{
+      width: 100%;
+      padding-top: 10px;
+      margin-bottom: 30px;
+    
+        }
+
+
+ .naslov h1{
+      font-size: 2.8em;
+      /*font-family:'Roboto Slab', serif;*/
+      font-family: 'Titillium Web', sans-serif;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      width: 94%;
+      margin:0px;
+      margin-top: 10px;
+      line-height: 1.2em;
+      padding-top: 4px;
+      
+        }
+
+ .naslov h2{
+      font-size: 1.3em;
+      width: 94%;
+      margin: 0px;
+      margin-bottom: 10px;
+      padding-top: 10px;
+      color: #595959;
+      font-family: 'Titillium Web', sans-serif;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-style: italic;
+      
+        }
+
+ .naslov h4{
+      font-size: .9em;
+      width: 94%;
+      margin: 0px;
+      color: rgba(204, 0, 102,.9);
+      font-family: 'Titillium Web', sans-serif;
+      margin-bottom: 12px;
+      color: #ff0055;
+      font-weight: 200;
+      
+        }
+
+
+
+.opissareni {
+      width: 94%;
+        }
+
+
+.naslov h3{
+      font-size: 0.8em;
+      margin: 0px;
+      color: #ff0066;
+      padding-top: 6px;
+      display: inline-block;
+      /*font-family: 'Titillium Web', sans-serif;*/
+      font-family: Arial;
+      font-family: 'Open Sans', sans-serif;
+      margin-right: 10px;
+      font-weight: 200;
+      padding-right: 6px;
+      padding-left: 20px;
+      border-top: 0.1em solid #ff0066;
+      margin-left: 4px;
+      margin-left: -10px;
+      
+       }
+
+.naslov .first{
+      padding-left: 5px;
+      margin-left: -1px;
+      border-top: .1em solid #000099;
+      color: #000099;
+}
+
+
+.naslov h3::after{
+     content: "";
+     width: 0.1em;
+     height: 26px;
+     display: block;
+     background: #ff0066;
+     transform: rotate(-30deg);
+     float: right;
+     margin-top: -8px;
+     margin-right: -13px;
+     }
+
+.naslov .first::after{
+     content: "";
+     width: .1em;
+     height: 26px;
+     display: block;
+     background: #000099;
+     transform: rotate(-30deg);
+     float: right;
+     margin-top: -8px;
+     margin-right: -13px;
+}
+
+
+/*======================================================================================================================================*/
+.naslov h3{
+  margin-left: -13px;
+}
+.naslov h3::after{
+  margin-top: -25px;
+}
+.naslov .first::after{
+  margin-top: -25px;
+}
+
+.naslov a{
+      font-size: 0.8em;
+      margin: 0px;
+      color: #ff0066;
+      padding-top: 6px;
+      display: inline-block;
+      font-family: Arial;
+      font-family: 'Open Sans', sans-serif;
+      margin-right: 10px;
+      font-weight: 200;
+      padding-right: 6px;
+      padding-left: 20px;
+      border-top: 0.1em solid #ff0066;
+      margin-left: 4px;
+      margin-left: -10px;
+      
+       }
+.naslov a::after{
+     content: "";
+     width: 0.1em;
+     height: 26px;
+     display: block;
+     background: #ff0066;
+     transform: rotate(-30deg);
+     float: right;
+     margin-top: -8px;
+     margin-right: -13px;
+     }
+
+
+
+
+    .naslov h4{
+      color: black;
+    }
+    .post-categories{
+      margin: 0px;
+      padding: 0px;
+      width: 60px;
+      display: inline-block;
+    }
+    .post-categories li{
+      margin: 0px;
+      padding: 0px;
+    }
+    .post-categories li a{
+      margin: 10px 0px 0px 0px;
+      padding: 0px;
+      font-size: 1em;
+      color: rgba(204, 0, 102,.9);
+      font-family: 'Titillium Web', sans-serif;
+      color: #ff0055;
+      font-weight: 200;
+      border-top: 0px; 
+    }
+    .post-categories li a::after{
+       width: 0px;
+       height: 0px;
+    }
+
+/*======================================================================================================================0*/
+
+
+
+
+ .naslov img{
+      width: 100%;
+       
+        }
+
+     /*--------------socialna mediji-----------*/
+
+
+.socmed{
+      width: 94%;
+      margin: 0px;
+      padding-top: 5px;
+        }
+
+
+.socmed .fa-facebook{
+      background: rgb( 59, 89, 152);
+
+        }
+
+.socmed .fa-twitter{
+      background: rgb( 85, 172, 238);
+
+        }
+
+
+
+.socmed .fa-facebook{
+      background: rgb( 59, 89, 152);
+
+        }
+
+.socmed .fa-twitter{
+      background: rgb( 85, 172, 238);
+
+        }
+
+
+
+ 
+.socmed i{
+      padding: 7px 30px;
+      color: white;
+      background: black;
+      margin-right: 10px;
+      padding-bottom: 5px;
+        }
+
+
+
+.story{
+       width: 67%;
+       /*border-top: 1px solid #e6e6e6;*/
+       /*border-bottom: 1px solid #e6e6e6;*/
+       /*border-right: 1px solid #e6e6e6;*/
+       float: left;
+       padding-bottom: 50px;
+       
+        }
+
+.story img{
+      width: 100%;
+      margin: 0px 0px 10px 0px;
+  
+      }
+
+
+.story p{
+      width: 100%;
+      margin: 17px auto;
+      font-size: 17px;
+      font-weight: 400;
+      /*font-family: 'Titillium Web', sans-serif;*/
+      font-family: Helvetica;
+      line-height: 1.6;
+      color: #333333;
+      letter-spacing: 1px;
+      color: rgba(0,0,0,.92);
+        }
+
+
+
+.story h3{
+    width: 48%;
+    margin: 6px 20px 10px 0px;
+    font-size: 1.9em;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.2;
+    color:black; 
+    letter-spacing: 1px;
+    border-top: 2px solid #e600ac; 
+    float: left;
+    padding-top: 10px;
+    
+    }
+
+.story h3::before{
+     content: "";
+     width: 2px;
+     height: 26px;
+     display: block;
+     background: #e600ac;
+     transform: rotate(-30deg);
+     float: right;
+     margin-top: -12px;
+     margin-right: -7px;
+     }
+
+
+.story h4{
+    width: 100%;
+    margin: 10px auto;
+    font-size: 1.4em;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.2;
+    color: rgba(0,0,0,.8); 
+    letter-spacing: 1px;    
+    }
+.story h5{
+    width: 100%;
+    margin: 0px auto;
+    font-size: 1em;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.2;
+    color: rgba(0,0,0,.7); 
+    letter-spacing: 1px;    
+    }
+
+
+
+
+.story .twocol {
+      background: linear-gradient(90deg,rgba(115, 115, 115,.8),rgba(0, 0, 0,.8));
+      color: white;
+      padding: 10px;
+        }
+
+
+ 
+ .right{
+      width: 29%;
+      height: 400px;
+      float: right;
+      margin: 0%;
+      overflow: hidden;
+      background: red;
+      display: none;
+        }
+
+
+
+
+
+
+
+
+
+     /*-------------------recomended----*/
+
+
+
+ .recomended{
+        width: 28%;
+        margin-bottom: 3em;
+        float: right;
+        border-right: 2px solid rgba(204, 0, 102,.9);
+        border-right: 2px solid #000099;
+        border-top: 2px solid #000099;
+        margin-right: 2%;
+        margin-top: 50px;
+            }
+
+.recomended::before{
+        content: "";
+        width: 2px;
+        height: 26px;
+        display: block;
+        background: #000099;
+        margin-top: -25px;
+        margin-left: -8px;
+        transform: rotate(-30deg);
+
+}
+
+.recomended hr{
+       display: none;
+         
+            }
+
+ .recomended h1{
+        margin: 1em 0px 1em 0px;
+        font-size: 1.2em;
+        font-family: Arial;
+        font-weight: 200;
+        color: black;
+        
+        width: 90%;
+        display: inline-block;
+              }
+
+  .recomended1{
+        width: 95%; 
+        float: left;
+        margin:0px;
+        margin-bottom: 14px;
+        overflow: hidden;
+
+
+       }
+
+  .lastlast{
+        
+      
+       }
+
+
+
+  .recomended1 img{
+        width: 100%;
+      
+       }
+
+
+  .recomended1 h2{
+        font-size: 1em;
+        font-family: Arial;
+        margin: 0px;
+        color: #666666;
+       }
+
+.recomended1 h2:hover{
+        color:#ff3300;
+       }
+
+
+
+
+
+
+    /*button*/
+
+ #btn{
+      
+      vertical-align: middle;
+      width: 20px;
+      height: 50px;
+      cursor: pointer;
+      margin: 20px;
+      overflow: hidden;
+     
+    
+         }
+
+
+ #btn span{
+      
+      margin-bottom: 5px;
+      display: block;
+      cursor: pointer;
+      position: relative;
+         }
+
+
+.spanm {
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+      transition:all 1s ease;
+      background: green;
+      border-radius: 50%;
+      margin-left: 4px;
+      height: 6px;
+      width: 6px;
+          }
+
+
+.spanm.visible {
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+      transition:all 1s ease;
+      background: red;
+      margin-left: 100px;
+          }
+
+
+
+.span1 {
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+      transition:all 1s ease;
+      background: red;
+      border-radius: 50%;
+      margin-left: 8px;
+      height: 6px;
+      width: 6px;
+         }
+
+
+.span2 {
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+     transition:all 1s ease;
+      background: blue;
+      border-radius: 50%;
+
+      height: 6px;
+      width: 6px;
+         }
+
+
+
+.span1.visible {
+      transform:translateZ(25px) rotate(315deg);
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+      transition:all 1s ease;
+
+      border-radius: 2px;
+
+      height: 4px;
+      width: 20px;
+      margin-left: 0px;
+      margin-top: 10px;
+         }
+
+
+
+  .span2.visible{
+      transform:rotate(225deg);
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+       transition:all 1s ease;
+
+      margin-top: -20px;
+
+      border-radius: 2px;
+      height: 4px;
+      width: 20px;
+         }
+
+
+
+
+
+
+.facebook {
+      width: 9em;
+      margin: 5em;
+      border-radius: 0.5em;
+
+      box-shadow: 0px 6px 2px -2px rgba(0,0,0,.4);
+
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+       transition:all 1s ease;
+
+       -webkit-animation-delay:30s;
+  }
+
+.facebook:hover {
+      box-shadow: 0px 13px 2px -3px rgba(0,0,0,.2);
+      transform: translateY(-4px);
+  }
+
+.facebook.animation{
+      width: 9.5em;
+      border: 0.1em solid black;
+      
+      transform:translateX(100px) rotate(360deg);
+      
+
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+       transition:all 1s ease;
+
+ }
+
+
+
+       
+         /*-------slike-----------*/
+/*
+.imagines {
+      width: 200px;
+      height: 90vw;
+      transform:translateX(0px) rotate(-90deg);
+      overflow: auto;
+      margin: auto;
+      margin-top: -25vw;
+  }
+ 
+
+.slides {
+      display: block;
+      width: 150px;
+      height: 200px;
+      margin:0px;
+      padding: 0px;
+  }
+
+.slides img {
+      float: right;
+      width: 200px;
+      height: 200px;
+      transform:translateX(0px) rotate(90deg);
+      margin-right: -30px;
+      -webkit-filter:grayscale(80%);
+  }
+
+ .slides img:hover{
+      -webkit-filter:grayscale(0%);
+  }
+  
+
+
+*/
+
+
+
+ .imagines {
+      width: 80%;
+      margin: 0 auto;
+  }
+
+
+ .imagines a img{
+      width: 32.5%;
+      height: 150px;
+      -webkit-filter:grayscale(80%);
+  }
+
+ .imagines a img:hover{
+      -webkit-filter:grayscale(0%);
+  }
+
+
+
+
+.cerrar {
+        display: block;
+        width: 25px;
+        height: 25px;
+        margin: auto;
+        margin-top: 5px;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        padding: 5px;
+        border-radius: 50%;
+        line-height: 25px;
+        }
+
+
+ .img{
+      display: none;
+
+  }
+
+.img img{
+      width: 94%;
+      margin:3%;
+
+
+  }
+
+ .img:target{
+      display: block;
+
+  }
+
+
+               /*------fixed sherr buttons------*/
+
+.kutija{
+      width: 100%;
+      height: 50px;
+      background: rgba(255,255,255,.8);
+      border-bottom: 1px solid #666666;
+      display: none;
+  }
+
+
+.kutija i{
+      float: right;
+      padding: .6em 5em .6em 5em;
+      color: white;
+      margin: .5em .8em;
+      border-radius: .4em;
+  }
+
+
+
+
+
+
+.kutija h1{
+      font-size: 2.5em;
+      font-family: Arial;
+      float: left;
+      margin: auto;
+      margin-left: 10px;
+      margin-top: 2px;
+      letter-spacing: 3px;
+      
+  }
+
+
+.kutija.fixed{
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: block;
+  }
+
+
+.lond{
+      height: 1000px;
+  }
+
+
+
+
+
+        /*-----------------forme----------*/
+
+
+.form{
+      width: 100%;
+
+  }
+
+.form input{
+      margin:10px;
+      font-size: 1.1em;
+      padding: 10px;
+      color: blue;
+      border: none;
+      border-left: 1px solid blue;
+
+      transition:all 3s ease;
+}
+
+.form input:focus{
+      border: none;
+      border-left: 1px solid blue;
+}
+
+.form button{
+      margin:10px;
+      font-size: 1.1em;
+      padding: 10px;
+      color: blue;
+      background: white;
+      border: none;
+
+      transition:all 0.3s ease;
+
+}
+
+.form button:focus{
+      color: white;
+      background: blue;
+}
+
+
+.comments {
+      font-size: 1.1em;
+      color: blue;
+      margin: 10px;
+      border-left: 1px solid blue;
+      padding-left: 5px;
+}
+
+
+ 
+         /*animacija*/
+   
+.anim{
+      width: 90%;
+      height: 200px;
+      position: absolut;
+      overflow: hidden;
+      margin: 5% auto;
+ }
+
+.anim{animation:puls 10s infinite;}
+
+
+ @keyframes puls{
+      0%{background: red}
+      50%{background: blue}
+}
+
+
+ .float:nth-child(1) {
+      width: 50px;
+      height: 50px;
+      margin-left: 40%;
+      background: blue;
+      list-style-type: none;
+      position: absolut;
+ }
+
+
+
+ .float:nth-child(2) {
+      width: 50px;
+      height: 50px;
+      margin-left: 20%;
+      background: blue;
+      list-style-type: none;
+      position: absolut;
+ }
+
+
+ .float{animation:float 5s infinite;}
+
+ @keyframes float{
+      0%{margin-top: 200px;}
+      100%{margin-top: -100px;
+          transform:rotate(360deg);
+      }
+
+}
+
+
+
+
+.bubble{
+      position:relative;
+      background: white;
+      margin-top: 30px;
+      border-radius: 3px;
+      padding: 20px;
+      margin-left: 20px;
+      width: 100px;
+  }
+
+
+.bubble::after {
+      content: "";
+      position:absolute;
+      display: block;
+      
+      left: -15px;
+      top: 15px;
+
+      width: 0;
+      height: 0;
+
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent;
+      border-right:15px solid white;
+  }
+
+
+
+
+
+
+
+
+.withoverflow{
+      width: 200px;
+      height: 130px;
+      overflow: auto;
+      margin: 100px;
+  }
+
+.par{
+      width: 500px;
+      height: 100px;
+      
+  }
+
+.par img{
+      height: 100%;b
+      
+  }
+
+
+
+.smalimgdiv{
+     width: 30%;
+     margin: 0 auto;
+
+}
+
+
+ @media screen and (max-width: 1110px)   {
+
+.naslov h1{
+      margin-left: 15px;
+      
+        }
+
+ .naslov h2{
+      margin-left: 15px;
+      margin-bottom: 10px;
+        }
+
+ .naslov h4{
+      margin-left:15px;
+      margin-bottom: 10px;
+      
+        }
+
+
+
+.opissareni {
+      margin: 0 auto; 
+      margin-left: 15px;
+        }
+
+
+
+
+.socmed{
+      margin-left: 15px;
+        }
+
+
+
+.story p{
+    width: 94%;
+} 
+
+
+.story h4{
+    width: 94%;
+    margin: 10px auto;
+    font-size: 1.4em;
+    letter-spacing: 1px;    
+    }
+.story h5{
+    width: 94%;
+    margin: 0px auto;
+    font-size: 1em;
+    letter-spacing: 1px;    
+    } 
+
+ }
+
+
+@media screen and (max-width: 880px)   {
+
+
+.story h3{
+    width: 94%;
+    margin-left: 3%;
+    font-size: 1.9em;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.2;
+    color:black; 
+    letter-spacing: 1px;
+    border-top: 1px solid #e600ac; 
+    float: left;
+    
+    }
+
+
+
+}
+
+
+ @media screen and (max-width: 780px)   {
+
+
+/*--------SECOND SRORY-------*/
+
+
+
+
+
+
+     /*------fixed sherr buttons------*/
+
+.kutija{
+      width: 100%;
+      padding-top: .3em;
+      height: 2.6em;
+  }
+
+.kutija i{
+      width: 25%;
+      padding: 0px;
+      margin:0px;
+      padding-left: 23%;
+      padding-top: .6em;
+      padding-bottom: .6em;
+      margin-right: 1%;
+  }
+
+
+.kutija h1{
+      display: none;
+  }
+
+
+
+
+
+    /*-------slike-----------*/
+/*
+.imagines {
+      width: 150px;
+      height: 90vw;
+      margin: auto;
+      margin-top: -25vw;
+  }
+
+.slides {
+      width: 100px;
+      height: 100px;
+  
+  }
+
+.slides img {
+      width: 100px;
+      height: 100px; 
+  }
+
+*/  
+
+  
+ .imagines {
+      width: 80%;
+      margin: 0 auto;
+  }
+
+
+ .imagines a img{
+      width: 32.5%;
+      height: 110px;
+
+  }
+
+     /*prica*/
+
+ .naslov h1{
+      font-size: 2em;
+    
+  }
+
+
+.naslov h2{
+     font-size: 1.2em;
+}
+
+
+.naslov h3{
+      font-size: 0.6em;
+
+    
+       }
+
+
+
+
+.naslov h3::after{
+    height: 22px;
+}
+
+.naslov .first::after{
+    height: 22px
+}
+.naslov h3::after{
+  margin-top: -21px;
+}
+.naslov .first::after{
+  margin-top: -21px;
+}
+
+
+
+.wraper .story{
+       width: 100%;
+       margin: 0 auto;
+
+        }
+
+.story{
+       border-top: 1px solid #e6e6e6;
+       border-bottom: 1px solid #e6e6e6;
+   }
+
+.story p{
+       width: 92%;
+   }
+
+.story h2{
+       font-size: 1.6em;
+
+   }
+.story h3{
+    width: 90%;
+    margin-left: 3%;
+ 
+    
+    }
+
+
+
+
+ .right {
+       background: red;
+       width: 100%;
+       height: 100px;
+       margin: auto;
+
+        }
+
+
+
+
+
+
+
+  /*-------------------recomended----*/
+
+
+
+ .recomended{
+        width: 95%;
+        height: 600px;
+        margin: 5em 2.5%;
+        float: left;
+        padding-top: 10px;
+        margin-right: 2%;
+        padding-right: 1px;
+
+  }
+
+ .recomended h1{
+        margin: 0px 0px .2em 0em;
+        font-size: 1.3em;
+        font-weight: 200;
+    
+              }
+
+  .recomended1{
+        width: 45%;
+        height:200px; 
+        float: left;
+        margin:0px  5% 0px 0px;
+    
+       }
+
+
+
+  .recomended1 img{
+        height: 150px;
+      
+       }
+
+
+  .recomended1 h2{
+        font-size: 0.9em;
+        margin: 0px;
+        color: #666666;
+       }
+
+
+
+
+
+
+
+
+
+
+  /*footer*/
+footer{
+     margin-top: 40px;
+       width: 100%;
+       height: 400px;
+       background:#222;
+       overflow: hidden;
+        }
+
+footer h1{
+        width: 90%;
+        font-size: 2.5em;
+        color: white;
+        margin: 30px auto;
+        text-align: center;
+        }
+
+
+footer h2{
+       width: 40%;
+       font-size: 1em;
+       display: inline-block;
+       color: white;
+       margin: 10px;
+       text-align: center;
+        }
+
+footer p{
+        padding: 0px;
+        margin: -5px 0px 0px 50px;
+        }
+
+
+
+
+
+
+
+
+  /*druge adver*/
+/*
+.advert{
+        width: 90%;
+        padding-left: 5%;
+        padding-top: 0%;
+        padding-right: 5%;
+        padding-bottom: 3%;
+        height: 140px;
+        overflow: hidden;
+  
+        }
+
+.advert hr{
+        margin-bottom: .5em;
+        color: rgba(255,255,255,.1);
+        }
+
+
+.advert h3{
+       position: top left;
+       margin: 0px;
+       font-size: 0.7em;
+       display: block;
+       margin-bottom: -.5em;
+       font-family: Arial;
+
+        }
+
+
+ .advert .imagine{
+       width: 27%;
+       height: 80%;
+       display: inline-block;
+       margin-top: 0em;
+        }       
+
+
+ .advert img{
+        width:  200%;
+        margin-left: -60%;
+        }
+
+
+.wraper-smal{
+       width: 67%;
+       float: right;
+       margin-top: -10px;
+        
+       }  
+
+.advert h1{
+        font-size: 0.9em;
+        content: black;
+        line-height: 1.2em;
+        padding-top: 3px;
+        }
+
+.advert h4{
+        font-size: 0.7em;
+        color: #737373;
+        }
+
+
+ .advert p{
+        display: none;
+        }
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+ @media screen and (max-width: 480px)   {
+
+
+
+
+ .recomended{
+        width: 95%;
+        height: 600px;
+        margin: 5em 2.5%;
+        float: left;
+        padding-top: 10px;
+        margin-right: 2%;
+        padding-right: 1px;
+
+  }
+
+ .recomended h1{
+        margin: 0px 0px .2em 0em;
+        font-size: 1.3em;
+        font-weight: 200;
+    
+              }
+
+  .recomended1{
+        width: 45%;
+        height:170px; 
+        float: left;
+        margin:0px  5% 0px 0px;
+    
+       }
+
+
+
+  .recomended1 img{
+       height: 120px;
+      
+       }
+
+
+  .recomended1 h2{
+        font-size: 0.9em;
+        margin: 0px;
+        color: #666666;
+       }
+
+
+
+
+
+ /*-------slike-----------*/
+ 
+ .imagines {
+      width: 100%;
+      margin: 0 auto;
+  }
+
+
+ .imagines a img{
+       width: 49%;
+       height: auto;
+  }
+
+}
+
