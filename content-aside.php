@@ -26,10 +26,12 @@
  <div class="midlewraper">
 
         <h1 class="h1naslov"> <?php the_title(); ?>  </h1>
-        <!-- <h2></h2> podnaslov -->
+        <h2><?php echo get_secondary_title(); ?></h2>
         <h6><?php the_time('F j, Y'); ?>, in <?php the_category(); ?></h6>
-        <style type="text/css">
-        .post-categories{
+
+
+<style type="text/css">
+    .post-categories{
       margin: 0px;
       padding: 0px;
       width: 60px;
@@ -49,6 +51,7 @@
       font-weight: 200;
     }
 </style>
+
           <div class="socmed">
              <i class="fa fa-facebook" aria-hidden="true"></i>
              <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -82,9 +85,15 @@
 	body{
 		background: white;
 	}
+ 
   .story h2{
     padding-left: 0px;
+    /*width: 660px;*/
+    
+    
+    
   }
+
 </style>
 
 

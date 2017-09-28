@@ -24,7 +24,6 @@ body{
     background-color: white;
     margin: 0 auto;
     width: 100%;
-    max-width: 1080px;
     padding-bottom: 50px;
     }
 
@@ -168,13 +167,25 @@ span{
         margin: 8px 0px 8px 0px;
         font-family: 'Titillium Web', sans-serif;
         font-family: 'Open Sans', sans-serif;
-        font-size: 1.4em;
+        font-size: 1.3em;
         line-height: 1.2em;
         color: #404040;
         /*color: black;*/
       
         
         }
+
+.entry-title a{
+  font-family: Helvetica;
+  font-family:  'Open Sans', sans-serif;
+  font-size: .9em;
+  
+}
+.entry-title .black-a{
+  color: #424242;
+
+}
+
 
  .advert h1:hover{
         /*color: #0066ff;*/
@@ -229,6 +240,10 @@ span{
 .advert{
     margin-left: 2.5%;
  
+}
+
+.the-latest{
+  margin-left: 20px;
 }
 
 }
@@ -293,11 +308,19 @@ span{
 
 
  .advert .imagine{
-       width: 22%;
+      /* width: 22%;
        height: 90%;
        display: inline-block;
        margin-top: 5px;
-       margin-left: 25px;
+       margin-left: 25px;*/
+        width: 26%;
+       height: 90%;
+       display: inline-block;
+       margin-top: 5px;
+       margin-left: 15px;
+       margin-right: 0px;
+       margin-bottom: 0px;
+       
         }       
 
 
@@ -308,10 +331,14 @@ span{
 
 
 .wraper-smal{
-       width: 70%;
+    /*   width: 70%;
+       float: right;
+       margin-top: -5px;*/
+         width: 66%;
        float: right;
        margin-top: -5px;
-        
+       border: 0px;
+       margin-right: 16px; 
        }  
 
 .advert h1{
@@ -348,6 +375,9 @@ span{
 
 
 
+  .the-latest{
+    margin-left: 10px;
+  }
 
 
 .advert{

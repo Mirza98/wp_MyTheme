@@ -3,9 +3,13 @@
 
 
 <style type="text/css">
+
+
+
+
   
 .wraper-smal h1 a{
-  color: black;
+  color: #424242;
 }
 .wraper-smal h1 a:hover{
   color: purple;
@@ -55,50 +59,7 @@
 
 
 
-
-<header>
-  <h1>THE VERGE</h1>
-
-
-</header>
-
-<div class="nav">
-  <div class="nav-wraper">
-  <h1>THE VERGE</h1>
-
-  <div id="sidebar">
-    <ul>
-      <?php wp_nav_menu(array('theme_location'=>'primary')); ?>
-    </ul>
-
-
-
-    <div id="sidebar-btn">
-        <span class="spanf"></span>
-        <span class="spanmi"></span>
-        <span class="spanl"></span>
-    </div>
-</div>
-
-
-
-
-<div class="nav-soc">
-  <ul class="ul-nav">
-    <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-    <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-    <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>  
-  </ul>
-</div>
-
-</div>
-
-</div>
-
-
-
-
-
+<?php get_template_part('my_header'); ?>
 
 
 
@@ -134,6 +95,10 @@
     
 }
 
+
+.sec_title{
+    display: none;
+}
 
 
 
@@ -177,15 +142,40 @@
 					
                         <div class="img">
                             <a href= <?php echo the_permalink(); ?> >
-                            <?php $urlImg = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() ) ); ?>
+                             <?php $urlImg = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() ) ); ?>
                             <img class="my-special-img" src="<?php echo $urlImg; ?>">
                             </a>
                         </div>
 
                         <div class="bigtext blue">
                             <?php the_title(sprintf('<h2 style="color:white;" class="entry-title"><a style="color:white;" href="%s">', esc_url( get_permalink() ) ),'</a></h2>' ); ?>
-                            <h3>CES 2017</h3>
+                            <h3><?php the_category(); ?></h3>
                         </div>
+                        <style type="text/css">
+                          .siri .bigtext h2{
+                            
+                            margin-top: -2px;
+                            /*margin-left: 26px;*/
+                          }
+
+
+                          h3 .post-categories{
+                            margin: 0px;
+                            padding: 0px;
+                      
+                          }
+                          
+                          h3 .post-categories li{
+                            margin: 0px;
+                            padding: 0px;
+                          }
+                          h3 .post-categories li a{
+                            margin: 0px;
+                            padding: 0px;
+                            margin-top: -2px;
+                            font-size: 1em;
+                          }
+                        </style>
                         	
 					
 					<?php endwhile;
@@ -223,7 +213,7 @@
 
             <div class="text yelov">
                <?php the_title(sprintf('<h2 style="color:white;" class="entry-title"><a style="color:white;" href="%s">', esc_url( get_permalink() ) ),'</a></h2>' ); ?> 
-              <h3>TECH</h3>
+              <h3><?php the_category(); ?></h3>
             </div>
 
             <?php endwhile;
@@ -275,7 +265,7 @@
 
             <div class="text red">
               <?php the_title(sprintf('<h2 style="color:white;" class="entry-title"><a style="color:white;" href="%s">', esc_url( get_permalink() ) ),'</a></h2>' ); ?> 
-              <h3>TECH</h3>
+              <h3><?php the_category(); ?></h3>
             </div>
 
             <?php endwhile;
@@ -285,19 +275,16 @@
 		?>
         </div>
   
-    <!-- <a href="faradayfutureff91.html">
-        <div class="siri right">
-            <div class="bigtext textleft specialtext pink">
-              <h2>Faraday Future konaćno predstavio novi automobil FF91 sa 1050 konjskih snaga</h2>
-              <h3>CES 2017</h3>
-            </div>
 
-            <div class="img textright specialimg">
-              <img src="imagines/oneciscenje.jpg">
-            </div>
-        </div>
-    </a> -->
-  
+
+
+
+
+
+
+
+
+
         <div class="siri right">
         <?php 
 			$args = array(
@@ -318,7 +305,7 @@
 
             <div class="bigtext pink">
               <?php the_title(sprintf('<h2 style="color:white;" class="entry-title"><a style="color:white;" href="%s">', esc_url( get_permalink() ) ),'</a></h2>' ); ?> 
-              <h3>CES 2017</h3>
+              <h3><?php the_category(); ?></h3>
             </div>
              <?php endwhile;
 					
@@ -364,7 +351,7 @@
 
             <div class="text3 green">
               <?php the_title(sprintf('<h2 style="color:white;" class="entry-title"><a style="color:white;" href="%s">', esc_url( get_permalink() ) ),'</a></h2>' ); ?> 
-              <h3>TECH</h3>
+              <h3><?php the_category(); ?></h3>
             </div>
              <?php endwhile;
 					
@@ -396,7 +383,7 @@
 
              <div class="text3 pink">
               <?php the_title(sprintf('<h2 style="color:white;" class="entry-title"><a style="color:white;" href="%s">', esc_url( get_permalink() ) ),'</a></h2>' ); ?> 
-              <h3>CES 2017</h3>
+              <h3><?php the_category(); ?></h3>
             </div>
             <?php endwhile;
 					
@@ -428,7 +415,7 @@
 
             <div class="text3 green">
               <?php the_title(sprintf('<h2 style="color:white;" class="entry-title"><a style="color:white;" href="%s">', esc_url( get_permalink() ) ),'</a></h2>' ); ?>
-              <h3>CES 2017</h3>
+               <h3><?php the_category(); ?></h3>
             </div>
              <?php endwhile;
 					
@@ -470,15 +457,17 @@
 
 <!-- recommender part =========================================================================================================== -->
 <style type="text/css">
-	
-
 	.link{
-		color: black;
+		color: #424242;
 	}
 	.link:hover{
-		color: purple;
+		color: #b30059;;
 	}
 </style>
+
+
+
+
 
 <div class="onrightwraper">
 <div class="divonright">
@@ -642,14 +631,45 @@
 
         <div class="wraper-smal"> 
           <?php the_title(sprintf('<h1 class="entry-title"><a href="%s">', esc_url( get_permalink() ) ),'</a></h1>' ); ?> 
-          <h4><?php the_time('F j'); ?>, in <?php the_category(); ?></h4>
+          <h4> in <?php the_category(); ?>  <span class="line"><?php the_time('F j'); ?></span></h4>
         </div>
+
+
         <style type="text/css">
   .wraper-smal  h4{
       color: black;
       margin-top: -16px;
       padding-top: 0px;
- /*   }
+    }
+
+
+  h4 span{
+    color: #828282;
+  }
+  h4 .line{
+    /*display: inline-block;*/
+  }
+  h4 .line::before{
+     content: "";
+     width: 0.1em;
+     height: 16px;
+     margin-right: 6px;
+     margin-left: 6px;
+     margin-bottom: -4px;
+     display: inline-block;
+     background: #828282;
+     
+  
+     
+  }
+
+
+
+
+
+
+    
+ /*   
     .wraper-smal  h4 .post-categories{
       margin: 0px;
       padding: 0px;
@@ -676,11 +696,10 @@
     }*/
         </style>
 </div>
-<?php endwhile;
-					
-				endif;
-				wp_reset_postdata();
-		?>
+<?php endwhile;				
+  endif;
+	wp_reset_postdata();
+?>
 
 
 
@@ -749,7 +768,7 @@
                 <img src="<?php echo $urlImg; ?>">
             </div>
 
-            <div class="trans-div1 red">
+            <div class="trans-div1 blue">
                 <?php the_title(sprintf('<h2 class="entry-title"><a style="color:white;" class="link" href="%s">', esc_url( get_permalink() ) ),'</a></h2>' ); ?> 
                 <h3><?php the_category(); ?></h3>
                 
@@ -820,19 +839,19 @@
 
         <div class="wraper-smal"> 
           <?php the_title(sprintf('<h1 class="entry-title"><a href="%s">', esc_url( get_permalink() ) ),'</a></h1>' ); ?> 
-          <h4><?php the_time('F j'); ?>, in <?php the_category(); ?></h4>
+          <h4> in <?php the_category(); ?>  <span class="line"><?php the_time('F j'); ?></span></h4>
         </div>
-
+        <style type="text/css">
+          .wraper-smal h4{
+            font-size: 12px;
+          }
+        </style>
 </div>
 <?php endwhile;
 					
 				endif;
 				wp_reset_postdata();
 		?>
-
-
-
-
 
 
 
@@ -922,6 +941,210 @@
       margin-top: 60px;
     }
   </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+
+
+/*
+.nav {
+ background: #e6005c;
+}
+
+
+
+#sidebar{
+       background: rgba(0,0,0,.85);
+       width: 250px;
+       height: 100%;
+       display: block;
+       position: absolute;
+       left: -250px;
+       top: 0px;
+       transition:left 0.3s cubic-bezier(0, 0, 0.74, 1);
+       z-index: 9999;
+       margin-left: 0px;    
+    }
+
+#sidebar.visible{
+      left: 0px;
+      transition:left 0.3s cubic-bezier(0, 0, 0.74, 1);
+}
+         
+
+ ul {
+    padding: 0px;
+    margin-top: 110px;
+         }
+
+ ul li{
+      list-style: none;
+         }
+
+ ul li a {
+      display: block;
+      width: 220px;
+      text-decoration: none;
+      padding:3px 10px 3px 10px;
+      margin-bottom: 20px;
+      color: white;
+      font-size: 1.2em;
+      font-family: Arial;
+         }
+
+ ul li a i{
+      margin-right: 5px;
+         }
+
+
+
+ ul li a:hover {
+    
+  }
+
+.blue{
+   color : #0066ff;
+
+  }
+
+
+.rightside{
+       display: inline-block;
+       margin: 0px;
+       padding: 0px;
+       margin-right: 3px;
+       float: right;
+       height: 45px;
+       width: 70px;
+    }
+
+.rightside li{
+       width: 35px;
+       float: left;
+       padding: 12px 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #sidebar-btn{
+      display: inline-block;
+      vertical-align: middle;
+      width: 22px;
+      height: 50px;
+      cursor: pointer;
+      margin: 12px;
+      position: absolute;
+      top: 2px;
+      right: -50px;
+      overflow: hidden;
+      margin-top: 12px;
+      margin-left: 5px;
+         }
+
+ #sidebar-btn span{
+      height: 4px;
+      margin-bottom: 5px;
+      display: block;
+      cursor: pointer;
+      border-radius: 2px;
+         }
+
+
+#sidebar-btn span:nth-child(2){
+    width: 75%;
+         }
+
+
+
+
+
+
+
+
+
+
+.nav-soc{
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  
+}
+
+.nav-soc .ul-nav li {
+  display: inline-block;
+}
+
+.nav-soc .ul-nav li a i{
+  color: white;
+
+}
+*/
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <?php get_footer(); ?>

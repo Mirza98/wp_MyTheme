@@ -24,8 +24,8 @@ body{
     padding: 0px;
     margin: 0px;
     margin: 0 auto;
-        }
-
+    background: white;
+  }
 
 .midlewraper{
     background-color: white;
@@ -366,16 +366,18 @@ ul li a p {
 
 
 .story h2{
-    width: 90%;
-    max-width: 640px;
     font-size: 1.8em;
     font-family: Arial;
     margin-right: 35px;
     margin-left: 6px;
     margin: 10px auto;
     padding: 15px;
-    color: purple;
+    color: #ff0066;
     border-top: 1px solid black;
+
+    padding-left: 0px;
+    width: 660px;
+    max-width: 1660px;
 }
 .story h2:before{
     content: "";
@@ -469,7 +471,10 @@ a{
     margin: 5px;
         }
 
-
+img{
+    width: 100%;
+    height: auto;
+  }
 
 
 
@@ -662,7 +667,7 @@ span{
 
 
 
- @media screen and (max-width: 680px)   {
+ @media screen and (max-width: 720px)   {
 
 
  .midlewraper .h1naslov{

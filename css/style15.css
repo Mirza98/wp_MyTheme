@@ -18,6 +18,7 @@ body{
     margin: 0px;
     /*max-width: 1080px;*/
     margin: 0 auto;
+    background: white;
         }
 
 
@@ -492,7 +493,6 @@ span{
       font-family: 'Titillium Web', sans-serif;
       font-family: 'Open Sans', sans-serif;
       font-weight: 400;
-      font-style: italic;
       
         }
 
@@ -505,7 +505,7 @@ span{
       margin-bottom: 12px;
       color: #ff0055;
       font-weight: 200;
-      
+      margin-top: -10px;
         }
 
 
@@ -531,7 +531,8 @@ span{
       border-top: 0.1em solid #ff0066;
       margin-left: 4px;
       margin-left: -10px;
-      
+      font-family: Arial Narrow,Helvetica,sans-serif;
+      font-size: .85em;
        }
 
 .naslov .first{
@@ -572,10 +573,10 @@ span{
   margin-left: -13px;
 }
 .naslov h3::after{
-  margin-top: -25px;
+  margin-top: -23px;
 }
 .naslov .first::after{
-  margin-top: -25px;
+  margin-top: -23px;
 }
 
 .naslov a{
@@ -645,7 +646,7 @@ span{
 
  .naslov img{
       width: 100%;
-       
+      height: auto; 
         }
 
      /*--------------socialna mediji-----------*/
@@ -710,24 +711,29 @@ span{
       }
 
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600');
 .story p{
       width: 100%;
       margin: 17px auto;
-      font-size: 17px;
-      font-weight: 400;
+      font-size:calc(1em * 1.250);
+      font-size: 18px;
       /*font-family: 'Titillium Web', sans-serif;*/
-      font-family: Helvetica;
+      /*font-family: 'Open Sans', sans-serif;*/
+      font-family: Helvetica, sans-serif;
+      font-weight: 400;
       line-height: 1.6;
       color: #333333;
       letter-spacing: 1px;
-      color: rgba(0,0,0,.92);
+      color: #424242;
+
         }
 
 
 
+
 .story h3{
-    width: 48%;
-    margin: 6px 20px 10px 0px;
+    width: 44%;
+    margin: 6px 40px 20px 0px;
     font-size: 1.9em;
     font-weight: 600;
     font-family: 'Titillium Web', sans-serif;
@@ -736,9 +742,9 @@ span{
     letter-spacing: 1px;
     border-top: 2px solid #e600ac; 
     float: left;
-    padding-top: 10px;
-    
+    padding-top: 10px;  
     }
+
 
 .story h3::before{
      content: "";
@@ -774,6 +780,30 @@ span{
     letter-spacing: 1px;    
     }
 
+
+
+.story ul li{
+  color: #424242;
+  font-size: 1em;
+  font-weight: 400;
+  display: block;
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 1.2;
+}
+.story ul li::before {
+  content: "• ";
+  color: #424242; /* or whatever color you prefer */
+}
+
+
+
+
+.story a{
+    color: #ff0066;
+}
+.story a:hover{
+    color:#b30059;
+}
 
 
 
@@ -1388,7 +1418,10 @@ span{
 .story p{
     width: 94%;
 } 
-
+.story ul {
+    width: 94%;
+    margin:0 auto;
+    } 
 
 .story h4{
     width: 94%;
@@ -1396,6 +1429,10 @@ span{
     font-size: 1.4em;
     letter-spacing: 1px;    
     }
+.story h3::before{
+     width: 1px;
+     }
+
 .story h5{
     width: 94%;
     margin: 0px auto;
@@ -1536,7 +1573,9 @@ span{
   margin-top: -21px;
 }
 
-
+.naslov h4{
+      margin-top: -10px;
+    }
 
 .wraper .story{
        width: 100%;
@@ -1545,12 +1584,14 @@ span{
         }
 
 .story{
-       border-top: 1px solid #e6e6e6;
-       border-bottom: 1px solid #e6e6e6;
+      /* border-top: 1px solid #e6e6e6;
+       border-bottom: 1px solid #e6e6e6;*/
    }
 
 .story p{
-       width: 92%;
+       width: 94%;
+       letter-spacing: 0px;
+    
    }
 
 .story h2{

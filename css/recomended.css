@@ -55,7 +55,7 @@ a{
     overflow: hidden;
     margin: 6px 0px;
     border: 0px;
-    
+    margin-bottom: 10px;
 }
 
 .recomended .advert hr{
@@ -86,12 +86,12 @@ a{
 .recomended .wraper-smal{
     width: 100%;
     float: right;
-    margin-top: 5px;
+    margin-top: 7px;
 } 
 
 .recomended .advert h1 {
     font-family: 'Open Sans', sans-serif; 
-    font-size: 0.9em;
+    font-size: 1em;
     line-height: 1.1em;
     font-weight: 600;
     color: rgba(0,0,0,.7);
@@ -104,10 +104,10 @@ a{
 }
 
 .entry-title a{
-    color: #666666;
+    color: #626262;
   }
   .entry-title a:hover{
-    color: #b30059;;
+    color: #b30059;
   }
 
 .recomended .advert h4{
@@ -164,11 +164,6 @@ a{
 
  @media screen and (max-width: 780px)   {
 
-
-
-
-
-
 .recomended{
         width: 88%;
         height: auto;
@@ -198,12 +193,12 @@ a{
 
 .recomended .advert{
        width: 100%;
-       height: 400px;
+       height: 370px;
        float: left;
        padding: 0px;
        overflow: hidden;
        margin: 6px 0px;
-
+      
 }
 
 
@@ -218,7 +213,7 @@ a{
 
 .recomended .advert .imagine{
        width: 94%;
-       height: 82%;
+       height: 72%;
        overflow: hidden;
        margin: 0px;
        padding: 0px;
@@ -230,23 +225,23 @@ a{
     margin: 0px;
     padding: 0px;
     width: 120%;
-    
+    margin-left: -5%;
 }
 
 
 .recomended .wraper-smal{
-       width: 90%;
+       width: 100%;
        float: left;
-       margin-top: 5px;
+       margin-top: 7px;
        font-size: .8em;
-       
+        
        } 
 
 .recomended .advert .wraper-smal h1{
         font-family:  'Open Sans', sans-serif; 
         font-size: 1.4em;
-        line-height: 1.1em;
-        font-weight: 400;
+        line-height: 1.4em;
+        font-weight: 600;
         color: rgba(0,0,0,.9);
         padding: 0px;
         margin: 0px;
@@ -286,7 +281,7 @@ a{
 }
 .recomended .advert .imagine{
       width: 94%;
-      height: 80%;
+      height: 64%;
       overflow: hidden;
       margin: 0px;
       padding: 0px;
@@ -295,6 +290,8 @@ a{
 
 
 }
+
+
 
 
 }

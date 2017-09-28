@@ -1,4 +1,5 @@
-$(document).ready(function(){
+jQuery(document).ready(function($){
+
 
     //header name
    $(".headername").append("THE VERGE");

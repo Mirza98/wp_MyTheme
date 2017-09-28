@@ -1,4 +1,5 @@
-$(document).ready(function(){
+jQuery(document).ready(function($){
+
 
 
           $( "#sidebar-btn").click(function() {

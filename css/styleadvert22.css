@@ -172,9 +172,61 @@ body{
         font-weight: 600;
         font-family: 'Open Sans', sans-serif;
         display: none;
-
-
         }   
+
+
+        /*===========================================================*/
+
+.wraper-smal3  h4{
+      color: black;
+      margin-top: -16px;
+      padding-top: 0px;
+    }
+        .wraper-smal3  h4 .post-categories{
+      margin: 0px;
+      padding: 0px;
+      width: 60px;
+      display: inline-block;
+    }
+    .wraper-smal3 h4 .post-categories li{
+      margin: 0px;
+      padding: 0px;
+    }
+    .wraper-smal3 h4 .post-categories li a{
+      margin: 10px 0px 0px 0px;
+      padding: 0px;
+      font-size: 1em;
+      color: rgba(204, 0, 102,.9);
+      font-family: 'Titillium Web', sans-serif;
+      color: #ff0055;
+      font-weight: 200;
+      border-top: 0px; 
+    }
+    .wraper-smal3 h4 .post-categories li a::after{
+       width: 0px;
+       height: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -228,6 +280,20 @@ span{
       display: inline-block;
       
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -288,14 +354,16 @@ span{
 .advert h1 {
         margin: 15px;
         font-family:  'Open Sans', sans-serif; 
-        /*font-family: 'Source Sans Pro', sans-serif;*/
-        /*font-family: 'Raleway', sans-serif;*/
-        font-weight: 600;
-        /*font-size: 1em;*/
-        font-size: 17px;
         line-height: 1.2em;
         color: rgba(0,0,0,.99);
         margin-bottom: 6px;
+        color: #424242;
+        font-size: 1.05em;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: normal;
+        line-height: 1.2;
+        text-transform: none;
         }
 
  .advert h1:hover{
@@ -308,6 +376,8 @@ span{
 .wraper-smal h1 a:hover{
   color: purple;
 }
+
+
 
  .advert h4{
        margin: 15px;
@@ -327,7 +397,6 @@ span{
     .wraper-smal  h4 .post-categories{
       margin: 0px;
       padding: 0px;
-      width: 60px;
       display: inline-block;
     }
     .wraper-smal  h4 .post-categories li{
@@ -365,7 +434,77 @@ span{
         }   
 
 
-   
+     .wraper-smal  h4{
+      color: black;
+      margin-top: -16px;
+      padding-top: 0px;
+    }
+
+
+  h4 span{
+    color: #828282;
+  }
+  h4 .line{
+    /*display: inline-block;*/
+  }
+  h4 .line::before{
+     content: "";
+     width: 0.1em;
+     height: 16px;
+     margin-right: 6px;
+     margin-left: 6px;
+     margin-bottom: -4px;
+     display: inline-block;
+     background: #828282;
+     
+  
+     
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -617,11 +756,11 @@ span{
 
 
  .advert3 .imagine3{
-       width: 22%;
+       width: 26%;
        height: 90%;
        display: inline-block;
        margin-top: 5px;
-       margin-left: 30px;
+       margin-left: 22px;
        margin-right: 0px;
        margin-bottom: 0px;
         }       
@@ -629,15 +768,18 @@ span{
 
  .advert3 img{
         width:  150%;
-        margin-left: -60%;
+  
         }
 
 
 .wraper-smal3{
-       width: 70%;
+       /*width: 70%;*/
+       width: 66%;
        float: right;
        margin-top: -5px;
        border: 0px;
+       /*=====================*/
+       border: 16px;
        }  
 
 .advert3 h1{
@@ -648,7 +790,14 @@ span{
         margin: 0px;
         margin-top: 10px;
         margin-bottom: 5px;
-      
+        
+        color: #424242;
+        font-family:  'Open Sans', sans-serif; 
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: normal;
+        line-height: 1.2;
+        text-transform: none;
         }
 
 .advert3 h4{
@@ -708,11 +857,13 @@ span{
 
 
  .advert .imagine{
-       width: 22%;
+       /*width: 22%;*/
+       width: 26%;
        height: 90%;
        display: inline-block;
        margin-top: 5px;
-       margin-left: 30px;
+       /*margin-left: 30px;*/
+       margin-left: 15px;
        margin-right: 0px;
        margin-bottom: 0px;
         }       
@@ -720,26 +871,27 @@ span{
 
  .advert img{
         width:  150%;
-        margin-left: -60%;
+        margin-left: -50%;
         }
 
 
 .wraper-smal{
-       width: 70%;
+       /*width: 70%;*/
+       width: 66%;
        float: right;
        margin-top: -5px;
        border: 0px;
+       margin-right: 16px;
        }  
 
 .advert h1{
         font-size: 1em;
-        color:black;
         line-height: 1.2em;
         padding-top: 3px;
         margin: 0px;
         margin-top: 10px;
         margin-bottom: 5px;
-      
+        color: black;
         }
 
 .advert h4{
@@ -899,11 +1051,14 @@ span{
 
 
  .advert .imagine{
-       width: 22%;
+        width: 22%;
        height: 90%;
        display: inline-block;
        margin-top: 5px;
-       margin-left: 20px;
+       margin-left: 11px;
+       margin-right: 0px;
+       margin-bottom: 0px;
+       
         }       
 
 
@@ -916,15 +1071,21 @@ span{
 .wraper-smal{
        width: 70%;
        float: right;
-       margin-top: -5px;
+        margin-top: -5px;
+       border: 0px;
+       margin-right: 3px;
+      
         
        }  
 
 .advert h1{
-        font-size: 0.9em;
-        color:black;
+         font-size: 0.9em;
         line-height: 1.2em;
         padding-top: 3px;
+        margin: 0px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+      
         }
 
 .advert h4{
@@ -1014,6 +1175,14 @@ span{
 
 
 
+
+
+
+
+
+
+
+/*
 .advert3{
         width: 100%;
         height: 100px;
@@ -1080,8 +1249,84 @@ span{
         display: none;
         }
 
+*/
+
+.advert3{
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+        border-bottom: 1px solid #d9d9d9;
+        padding: 10px 0px 10px 0px;
+        margin: 0px;
+        border-top: 0px;
+      
+        }
+
+.advert3 hr{
+        margin-bottom: .5em;
+        color: rgba(255,255,255,.1);
+        display: none;
+        }
 
 
+.advert3 h3{
+       font-size: .9em;
+       display: block;
+       font-family: Arial;
+       border-bottom: none;
+       position: absolute;
+       margin: 80px 10px 0px 90%;
+       display: none;
+        }
+
+
+ .advert3 .imagine3{
+       width: 22%;
+       height: 90%;
+       display: inline-block;
+       margin-top: 5px;
+       margin-left: 16px;
+       margin-right: 0px;
+       margin-bottom: 0px;
+       
+        }       
+
+
+ .advert3 img{
+        width:  150%;
+        margin-left: -50%;
+        }
+
+
+.wraper-smal3{
+       width: 70%;
+       float: right;
+       margin-top: -5px;
+       border: 0px;
+       margin-right: 3px;
+      
+       }  
+
+.advert3 h1{
+        font-size: 0.9em;
+        line-height: 1.2em;
+        padding-top: 3px;
+        margin: 0px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+      
+        }
+
+.advert3 h4{
+        font-size: 0.7em;
+        margin: 0px;
+        display: block;
+        }
+
+
+ .advert3 p{
+        display: none;
+        }
 
 
 

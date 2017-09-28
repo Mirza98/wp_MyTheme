@@ -5,7 +5,7 @@
 	THE LATEST
 </h1>
 <style type="text/css">
-	.the-latest{
+/*	.the-latest{
 		font-family: Arial;
 	}
 
@@ -15,6 +15,24 @@
   .entry-title a:hover{
    color:  #b30059;
   }
+*/
+  /*.the-latest{
+  	margin-left: 10px;
+  }*/
+
+
+
+.entry-title a{
+  font-family: Helvetica;
+  font-family:  'Open Sans', sans-serif;
+  font-size: .9em;
+  
+}
+.entry-title .black-a{
+  color: #424242;
+
+}
+
 
 </style>
 
@@ -41,7 +59,7 @@
         </div>  
 
       <div class="wraper-smal"> 
-        <?php the_title(sprintf('<h1 class="entry-title"><a href="%s">', esc_url( get_permalink() ) ),'</a></h1>' ); ?> 
+        <?php the_title(sprintf('<h1 class="entry-title"><a class="black-a" href="%s">', esc_url( get_permalink() ) ),'</a></h1>' ); ?> 
         <h4><?php the_time('F j, Y'); ?> at <?php the_time('g:i a'); ?></h4>
         
       </div>

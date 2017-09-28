@@ -6,36 +6,31 @@
 
 
 
-
-
 <?php get_template_part('my_header'); ?>
 
 
 
 
 
-
-
-
-
-
 <style type="text/css">
-	body{
+body{
     background: black;
     width: 100%;   
     width:100%;
-    max-width: 100%;
-  
+    max-width: 100%; 
 }
-
-
+.sec_title{
+    display: none;
+}                  
+.bigtext h1{
+	margin-left: 0px;
+	padding-left: 0px;
+}
 .wp-post-image{
     width: auto;
     height: 100%;
     
 }
-
-
 
 
 </style>
@@ -77,15 +72,17 @@
 						
 					
                         <div class="img">
+                            <a href= <?php echo the_permalink(); ?> >
                             <?php $urlImg = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() ) ); ?>
                             <img class="my-special-img" src="<?php echo $urlImg; ?>">
+                            </a>
                         </div>
 
-                        <div class="bigtext red">
+                        <div class="bigtext blue">
                             <?php the_title(sprintf('<h2 style="color:white;" class="entry-title"><a style="color:white;" href="%s">', esc_url( get_permalink() ) ),'</a></h2>' ); ?> 
                             <h3>CES 2017</h3>
                         </div>
-                        	
+                       
 					
 					<?php endwhile;
 					
@@ -114,8 +111,10 @@
 					while( $lastBlog->have_posts() ): $lastBlog->the_post(); ?>
 					
                 <div class="img">
-                    <?php $urlImg = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() ) ); ?>
-                    <img class="my-special-img" src="<?php echo $urlImg; ?>">
+                    <a href= <?php echo the_permalink(); ?> >
+                            <?php $urlImg = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() ) ); ?>
+                            <img class="my-special-img" src="<?php echo $urlImg; ?>">
+                            </a>
                 </div>
 
             <div class="text yelov">
@@ -148,6 +147,31 @@
 <div class="first-div-za-razmak"></div>
 
 
+
+
+
+
+
+<!-- ===================opis kategorije===================================================================0 -->
+<div class="cat_des">
+	<p><?php echo category_description( get_category_by_slug('category-slug')->term_id ); ?> </p>
+
+</div>
+<style type="text/css">
+	.cat_des{
+		width: 96%;
+		max-width: 700px;
+		margin: 0 auto;
+		padding: 0px 2%;
+		margin-bottom: 60px;
+	}
+	.cat_des p{
+		width: 100%;
+		text-align: center;
+		font-size: 1em;
+        font-family: 'Open Sans', sans-serif;
+	}
+</style>
 
 
 
@@ -191,8 +215,10 @@
     <hr>
    
         <div class="imagine3">
-          <?php $urlImg = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() ) ); ?>
-            <img class="my-special-img" src="<?php echo $urlImg; ?>">
+          <a href= <?php echo the_permalink(); ?> >
+                            <?php $urlImg = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() ) ); ?>
+                            <img class="my-special-img" src="<?php echo $urlImg; ?>">
+                            </a>
         </div>  
 
       <div class="wraper-smal3"> 
@@ -278,7 +304,9 @@
 <?php 
 	$args = array(
 	    'type' => 'post',
-		'posts_per_page' => 8,
+		'posts_per_page' => 2,
+		'offset' => 1,
+		'category__in' => array(8),
 	    
 	    );	
 		$lastBlog = new WP_Query( $args );
@@ -291,12 +319,15 @@
     <hr>
    
         <div class="imagine">
-            <?php $urlImg = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() ) ); ?>
-            <img class="my-special-img" src="<?php echo $urlImg; ?>">
+            <a href= <?php echo the_permalink(); ?> >
+                            <?php $urlImg = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() ) ); ?>
+                            <img class="my-special-img" src="<?php echo $urlImg; ?>">
+                            </a>
         </div>  
 
         <div class="wraper-smal"> 
-          <?php the_title(sprintf('<h1 class="entry-title"><a style="color:black;" href="%s">', esc_url( get_permalink() ) ),'</a></h1>' ); ?> 
+          <?php the_title(sprintf('<h1 class="entry-title"><a href="%s">', esc_url( get_permalink() ) ),'</a></h1>' ); ?> 
+          <h4><?php the_time('F j'); ?>, in <?php the_category(); ?></h4>
         </div>
 
 </div>
@@ -434,12 +465,16 @@
     <hr>
    
         <div class="imagine">
-            <?php $urlImg = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() ) ); ?>
-            <img class="my-special-img" src="<?php echo $urlImg; ?>">
+            <a href= <?php echo the_permalink(); ?> >
+                            <?php $urlImg = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() ) ); ?>
+                            <img class="my-special-img" src="<?php echo $urlImg; ?>">
+                            </a>
         </div>  
 
         <div class="wraper-smal"> 
-          <?php the_title(sprintf('<h1 class="entry-title"><a style="color:black;" href="%s">', esc_url( get_permalink() ) ),'</a></h1>' ); ?> 
+          <?php the_title(sprintf('<h1 class="entry-title"><a href="%s">', esc_url( get_permalink() ) ),'</a></h1>' ); ?> 
+           <h4><?php the_time('F j'); ?>, in <?php the_category(); ?></h4>
+
         </div>
 
 </div>

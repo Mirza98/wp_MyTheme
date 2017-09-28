@@ -1,11 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web);
 
 /*footer*/
-a:hover{
-  color: #b30059;
-}
-
-
 footer{
        margin:0px;
        padding: 0px;
@@ -62,16 +57,8 @@ footer h1{
 
 header{
   width: 100%;
-  height: 50px;
+  height: 44px;
   background: black;
-  background: -webkit-linear-gradient(-75deg,rgba(0, 0, 0,.9),rgba(153,0,153,.9));
-  /*background: -webkit-linear-gradient(-75deg,rgba(0, 153, 204,.9),rgba(153,0,153,.9));*/
-  /*background: -webkit-linear-gradient(-45deg,rgba(102, 0, 102,.8),rgba(255,0,102,.9));*/
-  /*background:    -moz-linear-gradient(-45deg,rgba(51, 51, 153,.6),rgba(210,11,45,.6));
-  background:     -ms-linear-gradient(-45deg,rgba(51, 51, 153,.6),rgba(210,11,45,.6));
-  background:      -o-linear-gradient(-45deg,rgba(51, 51, 153,.6),rgba(210,11,45,.6));
-  background:         linear-gradient(-45deg,rgba(51, 51, 153,.6),rgba(210,11,45,.6));
-*/
   margin: 0px auto;
   margin-bottom: 0px;
   overflow: hidden;
@@ -79,6 +66,7 @@ header{
 
 .headerwrap{
   width: 100%;
+  margin: 0 auto;
   max-width: 1080px;
 }
 
@@ -88,7 +76,7 @@ header h1 {
   color: white;
   font-family: Arial;
   float: left;
-  margin-top: 8px;
+  margin-top: 5px;
 }
 
 
@@ -97,8 +85,12 @@ header h1 {
   margin-top: 0px;
 }
 
+.secondari-soc{
+    display: block;
+}
+
 .nav-soc ul {
-    margin-top: 6px;
+    margin-top: 8px;
 }
 
 .nav-soc .fa {
@@ -107,7 +99,7 @@ header h1 {
 
 
 .nav-soc .fa:hover{
-    color: #ff0066;
+    color: #ff0066; 
     -webkit-transition:all 1s ease;
     -moz-transition:all 1s ease;
     -ms-transition:all 1s ease;
@@ -118,11 +110,6 @@ header h1 {
 
 
 
-.headerwrap{
-    width: 100%;
-    max-width: 1080px;
-    margin: 0 auto;
-}
 
 
 
@@ -162,11 +149,18 @@ header h1 {
  ul li a {
     float: left;
     text-decoration: none;
-    padding: 12px;
+    padding: 10px;
     color: white;
     font-size: 1em;
     font-family: 'Titillium Web', sans-serif;
+    margin-top: -3px;
 }
+
+#sidebar ul li a:hover{
+    color: #ff0066;
+}
+
+
 
 .navright {
     float: right;
@@ -402,7 +396,7 @@ header h1 {
 
 
 #sidebar{
-       background: rgba(242,242,242,.95);
+       background: rgba(0,0,0,.85);
        width: 250px;
        height: 100%;
        display: block;
@@ -435,7 +429,7 @@ header h1 {
       text-decoration: none;
       padding:3px 10px 3px 10px;
       margin-bottom: 20px;
-      color: black;
+      color: white;
       font-size: 1.2em;
       font-family: Arial;
          }
@@ -500,7 +494,7 @@ header h1 {
       top: 2px;
       right: -50px;
       overflow: hidden;
-      margin-top: 12px;
+      margin-top: 10px;
       margin-left: 5px;
          }
 
@@ -523,8 +517,19 @@ header h1 {
 
 
 
+
+
+
+
+
+
+.secondari-soc{
+        display: block;
+}
+
+
+
 .nav-soc{
-  border: 1px solid red;
   margin: 0px;
   padding: 0px;
 }
@@ -534,7 +539,7 @@ header h1 {
 }
 
 .nav-soc .ul-nav li a i{
-  color: black;
+  color: white;
 
 }
 
